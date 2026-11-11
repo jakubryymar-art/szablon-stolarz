@@ -30,16 +30,22 @@
         </div>
     </nav>
 
+    <!-- Zaktualizowana sekcja Hero -->
     <main class="flex-grow flex items-center justify-center relative py-32 px-4 text-center">
-        <div class="absolute inset-0 bg-[url('z1.avif')] bg-cover bg-center opacity-20"></div>
+        <!-- Zdjęcie na 100% widoczności -->
+        <div class="absolute inset-0 bg-[url('z1.avif')] bg-cover bg-center"></div>
+        
+        <!-- Nowa nakładka: Ciemny gradient, który uwydatnia kolory drewna, ale dba o czytelność tekstu -->
+        <div class="absolute inset-0 bg-gradient-to-b from-stone-950/80 via-stone-900/50 to-stone-950/90"></div>
+        
         <div class="relative z-10 max-w-3xl">
-            <h1 class="text-5xl md:text-7xl font-serif text-white mb-6">Sztuka Drewna</h1>
-            <p class="text-lg md:text-xl text-stone-400 mb-10">Schody mogą być rzeźbą, meblem albo czystą funkcją. Od 1987 roku tworzymy formy, które harmonijnie wtapiają się we wnętrze.</p>
-            <a href="kontakt.html" class="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3 rounded-sm uppercase tracking-wider transition">Darmowa wycena</a>
+            <h1 class="text-5xl md:text-7xl font-serif text-white mb-6 drop-shadow-lg">Sztuka Drewna</h1>
+            <p class="text-lg md:text-xl text-stone-200 mb-10 drop-shadow-md font-medium">Schody mogą być rzeźbą, meblem albo czystą funkcją. Od 1987 roku tworzymy formy, które harmonijnie wtapiają się we wnętrze.</p>
+            <a href="kontakt.html" class="bg-amber-600 hover:bg-amber-500 text-white px-8 py-3 rounded-sm uppercase tracking-wider transition shadow-lg">Darmowa wycena</a>
         </div>
     </main>
 
-    <footer class="bg-stone-950 py-8 text-center text-stone-500 text-sm border-t border-stone-800">
+    <footer class="bg-stone-950 py-8 text-center text-stone-500 text-sm border-t border-stone-800 relative z-10">
         <p>&copy; 2026 STOLMAR Mariusz Nowotyński. Nowoczesna realizacja.</p>
     </footer>
 
