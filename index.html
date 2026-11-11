@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOLMAR - Schody Drewniane Mariusz Nowotyński</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .font-serif { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body class="bg-stone-900 text-stone-300 font-sans antialiased flex flex-col min-h-screen">
+
+    <!-- Nawigacja -->
+    <nav class="bg-stone-950/80 backdrop-blur-md sticky top-0 z-50 border-b border-stone-800">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-serif text-white tracking-widest">STOLMAR</a>
+            <div class="hidden md:flex space-x-6 text-sm uppercase tracking-wider">
+                <a href="index.html" class="text-amber-500 transition">Home</a>
+                <a href="o-firmie.html" class="hover:text-amber-500 transition">O firmie</a>
+                <a href="oferta.html" class="hover:text-amber-500 transition">Oferta</a>
+                <a href="galeria.html" class="hover:text-amber-500 transition">Galeria</a>
+                <a href="rekojmia.html" class="hover:text-amber-500 transition">Rękojmia</a>
+                <a href="kontakt.html" class="hover:text-amber-500 transition">Kontakt</a>
+            </div>
+            <!-- Menu mobilne (uproszczone) -->
+            <div class="md:hidden flex space-x-4 text-xs">
+                <a href="oferta.html" class="hover:text-amber-500">Oferta</a>
+                <a href="kontakt.html" class="hover:text-amber-500">Kontakt</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sekcja Hero -->
+    <main class="flex-grow flex items-center justify-center relative py-32 px-4 text-center">
+        <div class="absolute inset-0 bg-[url('image_dd2f65.jpg')] bg-cover bg-center opacity-20"></div>
+        <div class="relative z-10 max-w-3xl">
+            <h1 class="text-5xl md:text-7xl font-serif text-white mb-6">Sztuka Drewna</h1>
+            <p class="text-lg md:text-xl text-stone-400 mb-10">Schody mogą być rzeźbą, meblem albo czystą funkcją. Od 1987 roku tworzymy formy, które harmonijnie wtapiają się we wnętrze[cite: 1].</p>
+            <a href="kontakt.html" class="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3 rounded-sm uppercase tracking-wider transition">Darmowa wycena</a>
+        </div>
+    </main>
+
+    <!-- Stopka -->
+    <footer class="bg-stone-950 py-8 text-center text-stone-500 text-sm border-t border-stone-800">
+        <p>&copy; 2026 STOLMAR Mariusz Nowotyński[cite: 1]. Nowoczesna realizacja.</p>
+    </footer>
+
+</body>
+</html>
