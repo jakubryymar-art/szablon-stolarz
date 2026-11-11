@@ -30,23 +30,20 @@
         </div>
     </nav>
 
-    <!-- Zaktualizowana sekcja Hero -->
-    <!-- Nowa sekcja Hero z efektem Glassmorphism -->
-    <main class="flex-grow flex items-center justify-center relative py-32 px-4 text-center">
-        <!-- Zdjęcie na 100% widoczności, bez ciemnej nakładki na całości -->
-        <div class="absolute inset-0 bg-[url('z1.avif')] bg-cover bg-center"></div>
+    <!-- Nowa, minimalistyczna sekcja Hero BEZ zdjęcia -->
+    <main class="flex-grow flex items-center justify-center relative py-32 px-4 text-center overflow-hidden bg-stone-950">
         
-        <!-- Bardzo delikatny, ciemny gradient tylko przy krawędziach (pod menu i nad stopką) -->
-        <div class="absolute inset-0 bg-gradient-to-b from-stone-950/60 via-transparent to-stone-950/80"></div>
+        <!-- Delikatna, bursztynowa poświata (efekt "glow") w tle -->
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-amber-700/10 blur-[100px] rounded-full pointer-events-none"></div>
         
-        <!-- Panel "oszronionego szkła" pod samym tekstem -->
-        <div class="relative z-10 max-w-3xl bg-stone-950/50 backdrop-blur-md border border-stone-600/30 p-8 md:p-12 rounded-xl shadow-2xl">
-            <h1 class="text-5xl md:text-7xl font-serif text-white mb-6 drop-shadow-lg">Sztuka Drewna</h1>
-            <p class="text-lg md:text-xl text-stone-200 mb-10 drop-shadow-md font-medium leading-relaxed">Schody mogą być rzeźbą, meblem albo czystą funkcją. Od 1987 roku tworzymy formy, które harmonijnie wtapiają się we wnętrze.</p>
-            <a href="kontakt.html" class="inline-block bg-amber-600 hover:bg-amber-500 text-white px-8 py-3 rounded-sm uppercase tracking-wider transition shadow-lg">Darmowa wycena</a>
+        <div class="relative z-10 max-w-3xl">
+            <h1 class="text-5xl md:text-7xl font-serif text-white mb-6 tracking-wide">Sztuka Drewna</h1>
+            <p class="text-lg md:text-xl text-stone-400 mb-10 leading-relaxed font-light">Schody mogą być rzeźbą, meblem albo czystą funkcją. Od 1987 roku tworzymy formy, które harmonijnie wtapiają się we wnętrze.</p>
+            <a href="kontakt.html" class="inline-block bg-amber-600 hover:bg-amber-500 text-white px-10 py-4 rounded-sm uppercase tracking-widest transition duration-300 shadow-[0_0_20px_rgba(217,119,6,0.3)] hover:shadow-[0_0_30px_rgba(217,119,6,0.6)]">Darmowa wycena</a>
         </div>
     </main>
-    <footer class="bg-stone-950 py-8 text-center text-stone-500 text-sm border-t border-stone-800 relative z-10">
+
+    <footer class="bg-stone-950 py-8 text-center text-stone-600 text-sm border-t border-stone-800 relative z-10">
         <p>&copy; 2026 STOLMAR Mariusz Nowotyński. Nowoczesna realizacja.</p>
     </footer>
 
