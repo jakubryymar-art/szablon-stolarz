@@ -31,20 +31,21 @@
     </nav>
 
     <!-- Zaktualizowana sekcja Hero -->
+    <!-- Nowa sekcja Hero z efektem Glassmorphism -->
     <main class="flex-grow flex items-center justify-center relative py-32 px-4 text-center">
-        <!-- Zdjęcie na 100% widoczności -->
+        <!-- Zdjęcie na 100% widoczności, bez ciemnej nakładki na całości -->
         <div class="absolute inset-0 bg-[url('z1.avif')] bg-cover bg-center"></div>
         
-        <!-- Nowa nakładka: Ciemny gradient, który uwydatnia kolory drewna, ale dba o czytelność tekstu -->
-        <div class="absolute inset-0 bg-gradient-to-b from-stone-950/80 via-stone-900/50 to-stone-950/90"></div>
+        <!-- Bardzo delikatny, ciemny gradient tylko przy krawędziach (pod menu i nad stopką) -->
+        <div class="absolute inset-0 bg-gradient-to-b from-stone-950/60 via-transparent to-stone-950/80"></div>
         
-        <div class="relative z-10 max-w-3xl">
+        <!-- Panel "oszronionego szkła" pod samym tekstem -->
+        <div class="relative z-10 max-w-3xl bg-stone-950/50 backdrop-blur-md border border-stone-600/30 p-8 md:p-12 rounded-xl shadow-2xl">
             <h1 class="text-5xl md:text-7xl font-serif text-white mb-6 drop-shadow-lg">Sztuka Drewna</h1>
-            <p class="text-lg md:text-xl text-stone-200 mb-10 drop-shadow-md font-medium">Schody mogą być rzeźbą, meblem albo czystą funkcją. Od 1987 roku tworzymy formy, które harmonijnie wtapiają się we wnętrze.</p>
-            <a href="kontakt.html" class="bg-amber-600 hover:bg-amber-500 text-white px-8 py-3 rounded-sm uppercase tracking-wider transition shadow-lg">Darmowa wycena</a>
+            <p class="text-lg md:text-xl text-stone-200 mb-10 drop-shadow-md font-medium leading-relaxed">Schody mogą być rzeźbą, meblem albo czystą funkcją. Od 1987 roku tworzymy formy, które harmonijnie wtapiają się we wnętrze.</p>
+            <a href="kontakt.html" class="inline-block bg-amber-600 hover:bg-amber-500 text-white px-8 py-3 rounded-sm uppercase tracking-wider transition shadow-lg">Darmowa wycena</a>
         </div>
     </main>
-
     <footer class="bg-stone-950 py-8 text-center text-stone-500 text-sm border-t border-stone-800 relative z-10">
         <p>&copy; 2026 STOLMAR Mariusz Nowotyński. Nowoczesna realizacja.</p>
     </footer>
